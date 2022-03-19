@@ -46,6 +46,7 @@ public class Student {
                 ", age=" + age +
                 ", sex='" + sex + '\'' +
                 "lzx" +
-                '}';
+                '}'+
+                "hot-fix commit";
     }
 }
