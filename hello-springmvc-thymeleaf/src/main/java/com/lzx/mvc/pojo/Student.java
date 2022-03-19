@@ -44,8 +44,6 @@ public class Student {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", age=" + age +
-                ", sex='" + sex + '\'' +
-                ", email='" + email + '\'' +
-                '}';
+                ", sex='" + sex + '\'' + '}';
     }
 }
