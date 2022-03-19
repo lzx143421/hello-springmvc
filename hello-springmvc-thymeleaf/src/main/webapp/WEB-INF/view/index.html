@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<h1>这里是首页</h1>
+<a th:href="@{/hello}">点击跳转到show页面</a> <br/>
+
+<form th:action="@{/test}" method="post">
+    姓名：<input  type="text" name="name"> <br/>
+    年龄：<input  type="text" name="age"> <br/>
+    性别：<input  type="radio" name="sex" value="男"> 男<br/>
+        <input   type="radio" name="sex" value="女"> 女<br/>
+    邮箱：<input type="text" name="email"><br/>
+    <input type="submit" value="提交测试接收参数为实体类">
+
+</form>
+
+<a th:href="@{/testrequest}">点击往request域中共享数据</a>
+
+<a th:href="@{/testDownload}">点击下载文件</a>
+
+
+<form th:action="@{/testUpload}" method = "post" enctype="multipart/form-data">
+    头像：<input type="file" name="photo">
+    <input type="submit" value="上传">
+</form>
+</body>
+</html>
