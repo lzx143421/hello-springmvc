@@ -47,7 +47,8 @@ public class Student {
                 ", sex='" + sex + '\'' +
                 "lzx" +
                 '}'+
-                "master commit";
-
+                "master commit"+
+                '}'+
+                "hot-fix commit";
     }
 }
