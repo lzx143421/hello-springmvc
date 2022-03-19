@@ -46,6 +46,8 @@ public class Student {
                 ", age=" + age +
                 ", sex='" + sex + '\'' +
                 "lzx" +
-                '}';
+                '}'+
+                "master commit";
+
     }
 }
